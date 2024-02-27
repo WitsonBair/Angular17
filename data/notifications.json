@@ -1,0 +1,60 @@
+{
+  "notifications": [
+    {
+      "id": "8b27",
+      "shortDescription": "Пресс качать",
+      "fullDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad aliquid eaque qui dolorem tempora accusantium! A, ducimus dignissimos cumque reiciendis dolor repudiandae natus odio ullam. Voluptas mollitia totam nam eligendi.",
+      "createdAt": "2024-02-06T02:25:00.000Z",
+      "completedAt": "2024-02-15T02:25:00.000Z",
+      "status": "Новый"
+    },
+    {
+      "id": "e4eb",
+      "shortDescription": "Бегать",
+      "fullDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad aliquid eaque qui dolorem tempora accusantium! A, ducimus dignissimos cumque reiciendis dolor repudiandae natus odio ullam. Voluptas mollitia totam nam eligendi.",
+      "createdAt": "2024-02-04T03:21:24.000Z",
+      "completedAt": "2024-02-06T03:21:28.000Z",
+      "status": "Исполнен"
+    },
+    {
+      "id": "91ac",
+      "shortDescription": "Турник",
+      "fullDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad aliquid eaque qui dolorem tempora accusantium! A, ducimus dignissimos cumque reiciendis dolor repudiandae natus odio ullam. Voluptas mollitia totam nam eligendi.",
+      "createdAt": "2024-01-31T20:21:32.000Z",
+      "completedAt": "2024-02-28T20:21:36.000Z",
+      "status": "Запланирован"
+    },
+    {
+      "id": "74ae",
+      "shortDescription": "Отжимания вечером",
+      "fullDescription": "Бла бла бла текст",
+      "createdAt": "2024-01-31T23:17:24.000Z",
+      "completedAt": "2024-02-28T23:17:37.000Z",
+      "status": "Запланирован"
+    },
+    {
+      "id": "14c8",
+      "shortDescription": "Заново",
+      "fullDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "createdAt": "2024-02-13T23:18:50.000Z",
+      "completedAt": "2024-02-28T23:18:54.000Z",
+      "status": "Просрочен"
+    },
+    {
+      "id": "f13f",
+      "shortDescription": "Тест",
+      "fullDescription": "Тест",
+      "createdAt": "2024-01-31T23:23:11.000Z",
+      "completedAt": "2024-02-20T06:23:14.000Z",
+      "status": "Новый"
+    },
+    {
+      "id": "6c00",
+      "shortDescription": "Раз раз",
+      "fullDescription": "два два",
+      "createdAt": "2024-02-07T23:26:11.000Z",
+      "completedAt": "2024-02-13T23:26:13.000Z",
+      "status": "Запланирован"
+    }
+  ]
+}

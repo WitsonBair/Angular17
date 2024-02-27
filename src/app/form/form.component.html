@@ -1,0 +1,39 @@
+<p-card header="Новое напоминание" [style]="{ width: '1000px' }"
+  class="flex align-items-center justify-content-center mt-5">
+  <form [formGroup]="notificationForm" (ngSubmit)="onSubmit()">
+    <div class="flex flex-col align-items-end justify-content-center">
+      <div class="ml-5 mr-5 mt-5">
+        <h5><label for="createdAt">Дата и время создания</label></h5>
+        <p-calendar formControlName="createdAt" name="createdAt" inputId="createdAt" dateFormat="dd.mm.yy"
+          [showIcon]="true" [showTime]="true"></p-calendar>
+      </div>
+
+      <div class="ml-5 mr-5 mt-5">
+        <h5><label for="completedAt">Дата и время выполнения</label></h5>
+        <p-calendar formControlName="completedAt" name="completedAt" inputId="completedAt" dateFormat="dd.mm.yy"
+          [showIcon]="true" [showTime]="true"></p-calendar>
+      </div>
+
+      <div class="ml-5 mr-5 mt-5">
+        <h5><label for="status">Статус</label></h5>
+        <p-dropdown formControlName="status" [options]="statuses" name="status" id="status"
+          placeholder="Статус"></p-dropdown>
+      </div>
+    </div>
+
+    <div class="m-5">
+      <h5><label for="shortDescription">Краткое описание</label></h5>
+      <input formControlName="shortDescription" id="shortDescription" type="text" pInputText name="shortDescription"
+        class="w-full">
+    </div>
+    <div class="m-5">
+      <h5><label for="fullDescription">Полное описание</label></h5>
+      <textarea formControlName="fullDescription" id="fullDescription" pInputTextarea name="fullDescription"
+        class="w-full h-8rem"></textarea>
+    </div>
+    <div class="ml-5 mr-5 mt-5 flex justify-content-end">
+      <button pButton type="button" label="Назад" routerLink="/" class="mr-2"></button>
+      <button pButton type="submit">{{passedData ? 'Изменить' : 'Добавить'}}</button>
+    </div>
+  </form>
+</p-card>

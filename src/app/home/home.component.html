@@ -1,0 +1,32 @@
+<p-table [value]="notifications" dataKey="name" [tableStyle]="{ 'min-width': '60rem' }">
+  <ng-template pTemplate="header">
+    <tr>
+      <th style="width: 5rem"></th>
+      <th pSortableColumn="shortDescription">Краткое описание <p-sortIcon field="shortDescription"></p-sortIcon></th>
+      <th pSortableColumn="createdAt">Дата и время создания <p-sortIcon field="createdAt"></p-sortIcon></th>
+      <th pSortableColumn="completedAt">Дата и время выполнения <p-sortIcon field="completedAt"></p-sortIcon></th>
+      <th pSortableColumn="status">Статус <p-sortIcon field="status"></p-sortIcon></th>
+    </tr>
+  </ng-template>
+  <ng-template pTemplate="body" let-notification let-expanded="expanded">
+    <tr (dblclick)="openEditForm(notification)">
+      <td>
+        <button type="button" pButton pRipple [pRowToggler]="notification"
+          class="p-button-text p-button-rounded p-button-plain"
+          [icon]="expanded ? 'pi pi-chevron-down' : 'pi pi-chevron-right'"></button>
+      </td>
+      <td>{{ notification.shortDescription }}</td>
+      <td>{{ notification.createdAt }}</td>
+      <td>{{ notification.completedAt }}</td>
+      <td>
+        {{notification.status}}
+        <!-- <p-tag [value]="notification.status" [severity]="getSeverity(notification.inventoryStatus)"></p-tag> -->
+      </td>
+    </tr>
+  </ng-template>
+  <ng-template pTemplate="rowexpansion" let-notification>
+    <tr>
+      <td colspan="6">{{ notification.fullDescription }}</td>
+    </tr>
+  </ng-template>
+</p-table>
