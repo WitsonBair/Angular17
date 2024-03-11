@@ -1,12 +1,12 @@
 {
   "notifications": [
     {
-      "id": "8b27",
       "shortDescription": "Пресс качать",
-      "fullDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad aliquid eaque qui dolorem tempora accusantium! A, ducimus dignissimos cumque reiciendis dolor repudiandae natus odio ullam. Voluptas mollitia totam nam eligendi.",
-      "createdAt": "2024-02-06T02:25:00.000Z",
-      "completedAt": "2024-02-15T02:25:00.000Z",
-      "status": "Новый"
+      "fullDescription": "123",
+      "createdAt": "06.02.2024 10:25",
+      "completedAt": "15.02.2024 10:25",
+      "status": "Новый",
+      "id": "8b27"
     },
     {
       "id": "e4eb",
@@ -54,6 +54,14 @@
       "fullDescription": "два два",
       "createdAt": "2024-02-07T23:26:11.000Z",
       "completedAt": "2024-02-13T23:26:13.000Z",
+      "status": "Запланирован"
+    },
+    {
+      "id": "20f0",
+      "shortDescription": "123",
+      "fullDescription": "456",
+      "createdAt": "2024-02-27T11:26:51.000Z",
+      "completedAt": "2024-02-29T06:27:06.000Z",
       "status": "Запланирован"
     }
   ]
